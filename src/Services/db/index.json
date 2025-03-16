@@ -1,0 +1,207 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "title": "What is React?",
+      "difficulty": "easy",
+      "category": "JavaScript",
+      "answers": "A JavaScript library, A CSS framework, A database, A backend language"
+    },
+    {
+      "id": "2",
+      "title": "What is JSX?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "A JavaScript library, A CSS framework, A database, A backend language"
+    },
+    {
+      "id": "3",
+      "title": "What is the use of useState in React?",
+      "difficulty": "easy",
+      "category": "React",
+      "answers": "A JavaScript library, A CSS framework, A database, A backend language"
+    },
+    {
+      "id": "4",
+      "title": "What is the Virtual DOM?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "A JavaScript library, A CSS framework, A database, A backend language"
+    },
+    {
+      "id": "5",
+      "title": "What is the main advantage of React?",
+      "difficulty": "easy",
+      "category": "JavaScript",
+      "answers": "A JavaScript library, A CSS framework, A database, A backend language"
+    },
+    {
+      "id": "6",
+      "title": "Which hook is used for side effects in React?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "A JavaScript library, A CSS framework, A database, A backend language"
+    },
+    {
+      "id": "7",
+      "title": "What is a component in React?",
+      "difficulty": "easy",
+      "category": "React",
+      "answers": "A reusable piece of UI, A CSS framework, A JavaScript library"
+    },
+    {
+      "id": "8",
+      "title": "What is state in React?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "An object that holds data, A component's internal data, A variable"
+    },
+    {
+      "id": "9",
+      "title": "What is the purpose of useEffect in React?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "To run side effects in components, To fetch data, To update state"
+    },
+    {
+      "id": "10",
+      "title": "What is the difference between props and state in React?",
+      "difficulty": "hard",
+      "category": "React",
+      "answers": "Props are passed to components, state is internal to components"
+    },
+    {
+      "id": "11",
+      "title": "What is a hook in React?",
+      "difficulty": "easy",
+      "category": "React",
+      "answers": "A function that lets you use React features like state and lifecycle methods"
+    },
+    {
+      "id": "12",
+      "title": "What does ReactDOM.render do?",
+      "difficulty": "easy",
+      "category": "React",
+      "answers": "It renders React elements into the DOM"
+    },
+    {
+      "id": "13",
+      "title": "What is the significance of keys in React lists?",
+      "difficulty": "medium",
+      "category": "React",
+      "answers": "They help React identify which items have changed, are added, or are removed"
+    },
+    {
+      "id": "14",
+      "title": "What is a functional component in React?",
+      "difficulty": "easy",
+      "category": "React",
+      "answers": "A component written as a function, which returns JSX"
+    },
+    {
+      "id": "15",
+      "title": "What is HTML?",
+      "difficulty": "easy",
+      "category": "HTML",
+      "answers": "A markup language used for structuring web content"
+    },
+    {
+      "id": "16",
+      "title": "What does the <meta> tag do in HTML?",
+      "difficulty": "medium",
+      "category": "HTML",
+      "answers": "Provides metadata like description, keywords, author, and more"
+    },
+    {
+      "id": "17",
+      "title": "What is the difference between <div> and <span> in HTML?",
+      "difficulty": "medium",
+      "category": "HTML",
+      "answers": "<div> is a block-level element, <span> is an inline element"
+    },
+    {
+      "id": "18",
+      "title": "What is the purpose of the alt attribute in HTML?",
+      "difficulty": "easy",
+      "category": "HTML",
+      "answers": "Provides alternative text for images when they cannot be displayed"
+    },
+    {
+      "id": "19",
+      "title": "What is CSS?",
+      "difficulty": "easy",
+      "category": "CSS",
+      "answers": "A style sheet language used for describing the presentation of a document written in HTML or XML"
+    },
+    {
+      "id": "20",
+      "title": "What is the difference between inline and block elements in CSS?",
+      "difficulty": "medium",
+      "category": "CSS",
+      "answers": "Inline elements do not start on a new line, block elements do"
+    },
+    {
+      "id": "21",
+      "title": "What is the purpose of the z-index property in CSS?",
+      "difficulty": "medium",
+      "category": "CSS",
+      "answers": "Controls the stacking order of elements"
+    },
+    {
+      "id": "22",
+      "title": "What is Flexbox in CSS?",
+      "difficulty": "medium",
+      "category": "CSS",
+      "answers": "A layout model in CSS for distributing space along a single axis"
+    },
+    {
+      "id": "23",
+      "title": "What is the box model in CSS?",
+      "difficulty": "medium",
+      "category": "CSS",
+      "answers": "Defines the structure of elements, including padding, margin, border, and content"
+    },
+    {
+      "id": "24",
+      "title": "What is JavaScript?",
+      "difficulty": "easy",
+      "category": "JavaScript",
+      "answers": "A programming language used to create interactive effects within web browsers"
+    },
+    {
+      "id": "26",
+      "title": "What is the difference between == and === in JavaScript?",
+      "difficulty": "medium",
+      "category": "JavaScript",
+      "answers": "== compares values with type coercion, === compares values without type coercion"
+    },
+    {
+      "id": "27",
+      "title": "What is the purpose of the 'this' keyword in JavaScript?",
+      "difficulty": "medium",
+      "category": "JavaScript",
+      "answers": "Refers to the object that is currently executing the code"
+    },
+    {
+      "id": "28",
+      "title": "What is an event listener in JavaScript?",
+      "difficulty": "medium",
+      "category": "JavaScript",
+      "answers": "A function that waits for an event to occur (e.g., click, hover) and then executes a function"
+    },
+    {
+      "id": "29",
+      "title": "What is the DOM in JavaScript?",
+      "difficulty": "easy",
+      "category": "JavaScript",
+      "answers": "The Document Object Model, a programming interface for web documents"
+    },
+    {
+      "id": "30",
+      "title": "What is the purpose of a promise in JavaScript?",
+      "difficulty": "hard",
+      "category": "JavaScript",
+      "answers": "Represents the eventual completion or failure of an asynchronous operation"
+    }
+  ]
+}

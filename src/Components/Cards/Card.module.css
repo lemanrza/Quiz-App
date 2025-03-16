@@ -1,0 +1,29 @@
+.card {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    width: 30%;
+    height: 20vh;
+    color: white;
+    border: 1px solid #262626;
+  }
+  
+  .card h2 {
+    font-size: 22px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: grey;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: lightgrey;
+  }
+  

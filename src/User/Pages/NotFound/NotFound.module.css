@@ -1,0 +1,50 @@
+.container {
+    font-family: "Inter Tight";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .errorCode {
+    font-size: 8rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(255, 87, 87, 0.5);
+  }
+  
+  .errorMessage {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1rem;
+    max-width: 500px;
+    opacity: 0.8;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .homeButton {
+    color: #ff5757;
+    background-color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .homeButton:hover {
+    background-color: #ff2e2e;
+    color: white;
+    transform: scale(1.05);
+  }
+  

@@ -1,0 +1,68 @@
+.header {
+    font-family: "Inter Tight";
+    background-color: #0A0A0A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.symbol {
+    margin-right: 6px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.brand {
+    color: white;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navLink {
+    background: none;
+    border: none;
+    color: lightgrey;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: white;
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+}
+
+.adminBtn {
+    background-color: #333;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.adminBtn:hover {
+    background-color: #555;
+}
