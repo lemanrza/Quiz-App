@@ -1,5 +1,6 @@
 import Home from "../User/Pages/Home/Home";
 import Questions from "../User/Pages/Questions/Questions";
+import QuestionsDetail from "../User/Pages/QuestionsDetail/QuestionsDetail";
 import NotFound from "../User/Pages/NotFound/NotFound";
 import User from "../User/User";
 import Admin from "../Admin/Admin";
@@ -20,7 +21,16 @@ const Routes = [
       },
       {
         path: "questions",
-        element: <Questions />,
+        children: [
+          {
+            index: true,
+            element: <Questions />,
+          },
+          {
+            path: ":id",
+            element: <QuestionsDetail />,
+          },
+        ],
       },
       {
         path: "login",
