@@ -9,6 +9,7 @@ import Login from "../User/Pages/Login/Login";
 import ProtectedRoute from "../Components/ProtectedRoute";
 import AddQuestion from "../Admin/Pages/AddQuestions/AddQuestion";
 import AdminQuestions from "../Admin/Pages/AdminQuestions/AdminQuestions";
+import EditQuestion from "../Admin/Pages/Edit/EditQuestion";
 const Routes = [
   {
     // user pages
@@ -73,6 +74,14 @@ const Routes = [
         element: (
           <ProtectedRoute>
             <AdminQuestions />
+          </ProtectedRoute>
+        ),
+      },
+      {
+        path: "editQuestion/:id", 
+        element: (
+          <ProtectedRoute>
+            <EditQuestion />
           </ProtectedRoute>
         ),
       },

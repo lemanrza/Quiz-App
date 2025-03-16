@@ -2,8 +2,8 @@
   "questions": [
     {
       "id": "1",
-      "title": "What is React?",
-      "difficulty": "easy",
+      "title": "What is React? ",
+      "difficulty": "Easy",
       "category": "JavaScript",
       "answers": "A JavaScript library, A CSS framework, A database, A backend language"
     },

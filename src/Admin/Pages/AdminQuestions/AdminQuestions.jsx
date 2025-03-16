@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react"; 
+import React, { useEffect, useState } from "react";
 import styles from "./AdminQuestions.module.css";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const AdminQuestions = () => {
+  const navigate= useNavigate()
   const [questions, setQuestions] = useState([]);
   const [filteredQuestions, setFilteredQuestions] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -47,6 +49,9 @@ const AdminQuestions = () => {
         setQuestions(questions.filter((question) => question.id !== id));
       })
   };
+  const handleUpdate = (question) => {
+    navigate(`/admin/editQuestion/${question.id}`);
+  };
 
   return (
     <div className={styles.adminQuestions}>
@@ -66,10 +71,11 @@ const AdminQuestions = () => {
           onChange={(e) => setSelectedCategory(e.target.value)}
           className={styles.selectInput}
         >
-          <option value="">All Level</option>
+          <option value="">All Categories</option>
           <option value="JavaScript">JavaScript</option>
           <option value="React">React</option>
           <option value="CSS">CSS</option>
+          <option value="GIT">GIT</option>
           <option value="HTML">HTML</option>
         </select>
 
@@ -110,7 +116,7 @@ const AdminQuestions = () => {
                   >
                     Delete
                   </button>
-                  <button className={styles.updateButton}>Update</button>
+                  <button onClick={() => handleUpdate(question)} className={styles.updateButton}>Update</button>
                 </td>
               </tr>
             ))

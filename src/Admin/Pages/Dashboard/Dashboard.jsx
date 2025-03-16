@@ -20,20 +20,21 @@ const Dashboard = () => {
 
   const calculateStats = (data) => {
     const total = data.length;
-
+  
     const categories = data.reduce((acc, question) => {
       acc[question.category] = (acc[question.category] || 0) + 1;
       return acc;
     }, {});
-
+  
     const difficulties = data.reduce((acc, question) => {
-      acc[question.difficulty] = (acc[question.difficulty] || 0) + 1;
+      const difficultyKey = question.difficulty.toLowerCase(); 
+      acc[difficultyKey] = (acc[difficultyKey] || 0) + 1;
       return acc;
     }, {});
-
+  
     setStats({ total, categories, difficulties });
   };
-
+  
   return (
     <div className={styles.dashboard}>
       <h1 className={styles.title}>Admin Dashboard</h1>
